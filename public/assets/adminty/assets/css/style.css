@@ -1,9 +1,18 @@
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 body {
     background-color: #f3f3f3;
     font-size: .875em;
     overflow-x: hidden;
     color: #353c4e;
-    font-family: "Open Sans", sans-serif;
+    font-family: roboto;
     background-attachment: fixed
 }
 
@@ -25222,5 +25231,52 @@ body.dark #styleSelector {
 body.dark #styleSelector .form-control {
     color: #404E67
 }
-
+.dropdown-ginx-md {
+    background: #f3f3f3;
+    padding: 3px;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: inherit;
+    height: 20px;
+    margin-left: 9px;
+}
+.dropdown-ginx-md:hover{
+    background: #d8d8d8;
+}
+.dropdown-ginx-md:active{
+    background: #ccc;
+   
+}
+.input-ginx-md {
+    background-image: url("../images/loupe.png");
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 15px;
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+    height: 35px;
+    width: 240px;
+}
+.tbl-tr-ginx-md{
+    background: #efefef; 
+    font-size: 13px;
+}
+.td-a-ginx-md{
+    font-size: 20px;
+    color: #b3b3b3;
+    margin-left: 12px;
+}
+.td-a-ginx-md:hover{
+    color: grey;
+}
 /*# sourceMappingURL=style.css.map */
