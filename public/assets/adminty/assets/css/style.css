@@ -12,7 +12,7 @@ body {
     font-size: .875em;
     overflow-x: hidden;
     color: #353c4e;
-    font-family: roboto;
+    font-family: roboto !important;
     background-attachment: fixed
 }
 
@@ -25270,6 +25270,7 @@ body.dark #styleSelector .form-control {
 .tbl-tr-ginx-md{
     background: #efefef; 
     font-size: 13px;
+    font-weight: bold;
 }
 .td-a-ginx-md{
     font-size: 20px;
